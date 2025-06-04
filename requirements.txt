@@ -2,3 +2,7 @@ dask[complete]
 numpy
 pandas
 s3fs
+dask-cloudprovider[aws]
+cryptography
+awscli
+pyspark
