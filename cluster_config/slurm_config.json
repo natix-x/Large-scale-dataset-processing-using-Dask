@@ -1,0 +1,7 @@
+{
+  "queue": "plgrid",
+  "account": "plgnatix02",
+  "cores": 4,
+  "memory": "16GB",
+  "walltime": "01:00:00"
+}
