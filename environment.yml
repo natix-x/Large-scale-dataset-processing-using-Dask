@@ -1,0 +1,15 @@
+name: dask-project
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - dask[complete]
+  - dask-jobqueue
+  - dask-ml
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - plotly
+  - ipykernel
