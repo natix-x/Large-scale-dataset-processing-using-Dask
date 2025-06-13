@@ -4,7 +4,7 @@
 
 - [General info](#general-info)
 - [Data](#data)
-- [Project structure](#project-structure)
+- [Project structure](#project-structure-main components)
 - [Requirements](#requirements)
 - [Setup](#setup)
 
@@ -21,7 +21,7 @@ We selected the [TLC Trip Record Data - Yellow Taxi Trip Records](https://www.ny
 
 Also some analysis was performed with other parquet files downloaded from [AWS public datasets](https://registry.opendata.aws/)
 
-### Project structure
+### Project structure - main components
 
 ```
 ├── data/                     # NYC Yellow Taxi data
@@ -32,8 +32,9 @@ Also some analysis was performed with other parquet files downloaded from [AWS p
 │
 ├── results/                  # Runtime benchmarks, memory usage, plots, slurm outputs
 │
-├── cluster_config/           # Dask cluster setups (e.g., SLURM on Ares)
+├── cluster_config/           # Dask cluster setups (e.g., SLURM on Athena)
 │
+├── utils/                    # Measure metrics & save results to CSV files
 
 ```
 
