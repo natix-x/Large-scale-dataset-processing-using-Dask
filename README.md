@@ -74,4 +74,5 @@ You can lunch Dask on the same or different SLURM-based cluster. You just need t
 For more details and available options, please refer to the official [Dask Jobqueue documentation](https://jobqueue.dask.org/en/latest/generated/dask_jobqueue.SLURMCluster.html).
 
 3. Perfoming analysis.
+   
 Now you can perform analysis both in Jupyter notebooks and python files.
