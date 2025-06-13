@@ -4,7 +4,7 @@
 
 - [General info](#general-info)
 - [Data](#data)
-- [Project structure](#project-structure-main components)
+- [Project structure](#Project structure - main components)
 - [Requirements](#requirements)
 - [Setup](#setup)
 
