@@ -64,18 +64,18 @@ If you want to further explore our project:
 
 1. Synchronizing your remote environment.
 
-Pleses remember to synchronize your local project with the remote environment. Adjust the [sync_project.sh](./sync_project.sh) script according to your setup. You can exculde some directories or files by modifying UNIX command (venv is excluded already).
+   Pleses remember to synchronize your local project with the remote environment. Adjust the [sync_project.sh](./sync_project.sh) script according to your setup. You can exculde some directories or files by modifying UNIX command (venv is excluded already).
 
-Then, if you prefer, you can edit files directory directly on the server using [VSCode Remote SSH](https://code.visualstudio.com/docs/remote/ssh) or work locally and run sync_project.sh whenever you want to update your remote environment
+   Then, if you prefer, you can edit files directory directly on the server using [VSCode Remote SSH](https://code.visualstudio.com/docs/remote/ssh) or work locally and run sync_project.sh whenever you want to update your remote environment
 
 2. Launching Dask.
 
-For distributed tests, we used supercomputer Athena at Cyfronet (PLGrid infrustructure).
+   For distributed tests, we used supercomputer Athena at Cyfronet (PLGrid infrustructure).
 
-You can lunch Dask on the same or different SLURM-based cluster. You just need to adjust the parameters of the SLURMCluster in the configuration file: [slurm_config.json](cluster_config/slurm_config.json).
+   You can lunch Dask on the same or different SLURM-based cluster. You just need to adjust the parameters of the SLURMCluster in the configuration file: [slurm_config.json](cluster_config/slurm_config.json).
 
-For more details and available options, please refer to the official [Dask Jobqueue documentation](https://jobqueue.dask.org/en/latest/generated/dask_jobqueue.SLURMCluster.html).
+   For more details and available options, please refer to the official [Dask Jobqueue documentation](https://jobqueue.dask.org/en/latest/generated/dask_jobqueue.SLURMCluster.html).
 
 3. Perfoming analysis.
    
-Now you can perform analysis both in Jupyter notebooks and python files.
+   Now you can perform analysis both in Jupyter notebooks and python files.
