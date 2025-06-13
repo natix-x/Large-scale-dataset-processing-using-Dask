@@ -4,7 +4,7 @@
 
 - [General info](#general-info)
 - [Data](#data)
-- [Project structure](#Project-structure--main-components)
+- [Project structure](#Project-structure)
 - [Requirements](#requirements)
 - [Setup](#setup)
 
@@ -21,7 +21,9 @@ We selected the [TLC Trip Record Data - Yellow Taxi Trip Records](https://www.ny
 
 Also some analysis was performed with other parquet files downloaded from [AWS public datasets](https://registry.opendata.aws/)
 
-### Project structure - main components
+### Project structure
+
+Main components of the project are listę below.
 
 ```
 ├── data/                     # NYC Yellow Taxi data
