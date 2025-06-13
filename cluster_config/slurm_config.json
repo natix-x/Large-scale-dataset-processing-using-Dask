@@ -1,10 +1,10 @@
 {
-  "queue": "plgrid-gpu-a100",
-  "account": "plglscclass24-gpu-a100",
-  "cores": 8,
-  "memory": "16GB",
-  "walltime": "02:00:00", 
-  "interface": "ib0",
-  "outt_dir": "/net/people/plgrid/plgnatix02/Large-scale-dataset-processing-using-Dask/results/slurm_outputs",
-  "err_dir": "/net/people/plgrid/plgnatix02/Large-scale-dataset-processing-using-Dask/results/slurm_outputs"
+  "queue": "YOUR_QUEUE_NAME",
+  "account": "YOUR_ACCOUNT_NAME",
+  "cores": NUMBER_OF_CORES,
+  "memory": "REQUESTED_MEMORY",
+  "walltime": "WALL_TIME", 
+  "interface": "INTERFACE",
+  "outt_dir": "OUTPUT_DIR",
+  "err_dir": "ERORS_DIR"
 }
