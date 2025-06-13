@@ -24,7 +24,9 @@ Also some analysis was performed with other parquet files downloaded from [AWS p
 ### Project structure
 
 ```
-├── data/                     # Raw input data (NYC Yellow Taxi)
+├── data/                     # NYC Yellow Taxi data
+│
+├── parquet_files/            # Other big data examples (from AWS storage)
 │
 ├── notebooks/                # Analysis in Pandas, Dask (local), Dask(cyfronet)
 │
