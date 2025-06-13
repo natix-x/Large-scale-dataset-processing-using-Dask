@@ -23,7 +23,7 @@ Also some analysis was performed with other parquet files downloaded from [AWS p
 
 ### Project structure
 
-Main components of the project are listę below.
+Main components of the project are listed below.
 
 ```
 ├── data/                     # NYC Yellow Taxi data
