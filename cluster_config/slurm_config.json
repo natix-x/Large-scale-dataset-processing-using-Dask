@@ -1,7 +1,10 @@
 {
-  "queue": "plgrid",
-  "account": "plgnatix02",
-  "cores": 4,
+  "queue": "plgrid-gpu-a100",
+  "account": "plglscclass24-gpu-a100",
+  "cores": 8,
   "memory": "16GB",
-  "walltime": "01:00:00"
+  "walltime": "02:00:00", 
+  "interface": "ib0",
+  "outt_dir": "/net/people/plgrid/plgnatix02/Large-scale-dataset-processing-using-Dask/results/slurm_outputs",
+  "err_dir": "/net/people/plgrid/plgnatix02/Large-scale-dataset-processing-using-Dask/results/slurm_outputs"
 }
